@@ -1,6 +1,6 @@
 {
     "name": "my-project-devcontainer",
-    "image": "mcr.microsoft.com/devcontainers/base:centos",  // Any generic, debian-based image.
+    "image": "registry.access.redhat.com/ubi8/ubi:latest",  // Any generic, debian-based image.
     "features": {
         "ghcr.io/devcontainers/features/python:1": {
             "version": "3.10"
